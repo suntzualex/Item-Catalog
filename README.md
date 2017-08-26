@@ -4,12 +4,15 @@ display and manage items in several categories.
 
 ## Set Up
 
+watch out step 3 is very important!
+
 1. Clone the [fullstack-nanodegree-vm repository](https://github.com/udacity/fullstack-nanodegree-vm).
-2. install the dependencies: sudo pip install -r requirements.txt
-3. Issue the following command: 
+2. Issue the following command: 
    vagrant up; vagrant ssh; cd ../../vagrant
    git clone "this project" into that vagrant folder.
-
+   
+3. install the dependencies: sudo pip install -r requirements.txt
+Set up is ready and from the Item-Catalog-New folder you can run: python run.py and go to 127.0.0.1:5000 with your browser.
 ## Usage
 
 Launch the Vagrant VM from inside the *vagrant* folder with:
